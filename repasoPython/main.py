@@ -68,3 +68,18 @@ print(valor1 >= valor2) # mayor igual q
 print(valor1 <= valor2) #menor igual q
 print(valor1 != valor2) #no igual
 
+#FUNCIONES
+"""
+Bloque de codigo que retornan un valor y solo se ejecutan
+cuando se llaman
+"""
+
+def mi_funcion():
+    print("hola Nata")
+mi_funcion() #invocar la funcion
+
+def mensaje(nombre): # se pueden pasar varios argumentso separado de coma y espacio
+    print("Hola "+ nombre)
+
+mensaje(" Natalia")
+
